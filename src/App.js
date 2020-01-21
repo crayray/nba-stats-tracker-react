@@ -13,28 +13,19 @@ function App() {
           href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
         />
       </header>
-      {/* <div className="ui grid container">
-        <Team className="one wide column" />
-        <Favorites className="one wide column" />
-      </div> */}
 
       <div class="ui placeholder segment">
-  <div class="ui two column very relaxed stackable grid">
-    <div class="column">
-      <Team/>
+        <div class="ui two column very relaxed stackable grid">
+          <div class="column">
+            <Team />
+          </div>
         </div>
-        
-        
       </div>
-    </div>
-    <div class="middle aligned column">
-      <Favorites/>
-    </div>
+      <div class="middle aligned column">
+        <Favorites />
+      </div>
 
-  <div class="ui vertical divider">
-  </div>
-
-
+      <div class="ui vertical divider"></div>
     </div>
   );
 }
