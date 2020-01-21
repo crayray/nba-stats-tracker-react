@@ -1,4 +1,4 @@
- Map through: if nbaFranchise is 0 do not keep.
+ 
  {
   "api": {
     "status": 200,

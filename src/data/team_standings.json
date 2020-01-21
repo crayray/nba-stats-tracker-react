@@ -1,1 +1,40 @@
-{"api":{"status":200,"message":"GET standings\/standard\/2018\/teamId\/5","results":1,"filters":["conference","division","teamId"],"standings":[{"league":"standard","teamId":"5","win":"39","loss":"43","gamesBehind":"21","lastTenWin":"6","lastTenLoss":"4","streak":"1","seasonYear":"2018","conference":{"name":"east","rank":"9","win":"29","loss":"23"},"division":{"name":"southeast","rank":"2","win":"10","loss":"6","GamesBehind":"3"},"winPercentage":".476","lossPercentage":".524","home":{"win":"25","loss":"16"},"away":{"win":"14","loss":"27"},"winStreak":"0","tieBreakerPoints":""}]}}
+{
+  "api": {
+    "status": 200,
+    "message": "GET standings/standard/2018/teamId/5",
+    "results": 1,
+    "filters": ["conference", "division", "teamId"],
+    "standings": [
+      {
+        "league": "standard",
+        "teamId": "5",
+        "win": "39",
+        "loss": "43",
+        "gamesBehind": "21",
+        "lastTenWin": "6",
+        "lastTenLoss": "4",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "9",
+          "win": "29",
+          "loss": "23"
+        },
+        "division": {
+          "name": "southeast",
+          "rank": "2",
+          "win": "10",
+          "loss": "6",
+          "GamesBehind": "3"
+        },
+        "winPercentage": ".476",
+        "lossPercentage": ".524",
+        "home": { "win": "25", "loss": "16" },
+        "away": { "win": "14", "loss": "27" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      }
+    ]
+  }
+}
