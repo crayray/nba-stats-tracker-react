@@ -2,6 +2,7 @@ import React from "react";
 import Teams from "./data/all_teams.json";
 import TeamCard from "./TeamCard";
 
+
 export default function Team() {
   return (
     <div>
