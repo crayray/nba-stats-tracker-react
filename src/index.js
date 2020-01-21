@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import Signup from './Signup';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render((  <Router>
     <div>
