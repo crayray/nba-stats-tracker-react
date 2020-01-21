@@ -1,0 +1,911 @@
+From:  https://api-nba-v1.p.rapidapi.com/standings/standard/2018/
+{
+  "api": {
+    "status": 200,
+    "message": "GET standings/standard/2018",
+    "results": 30,
+    "filters": ["conference", "division", "teamId"],
+    "standings": [
+      {
+        "league": "standard",
+        "teamId": "1",
+        "win": "29",
+        "loss": "53",
+        "gamesBehind": "31",
+        "lastTenWin": "5",
+        "lastTenLoss": "5",
+        "streak": "3",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "12",
+          "win": "16",
+          "loss": "36"
+        },
+        "division": {
+          "name": "southeast",
+          "rank": "5",
+          "win": "6",
+          "loss": "10",
+          "GamesBehind": "13"
+        },
+        "winPercentage": ".354",
+        "lossPercentage": ".646",
+        "home": { "win": "17", "loss": "24" },
+        "away": { "win": "12", "loss": "29" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "5",
+        "win": "39",
+        "loss": "43",
+        "gamesBehind": "21",
+        "lastTenWin": "6",
+        "lastTenLoss": "4",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "9",
+          "win": "29",
+          "loss": "23"
+        },
+        "division": {
+          "name": "southeast",
+          "rank": "2",
+          "win": "10",
+          "loss": "6",
+          "GamesBehind": "3"
+        },
+        "winPercentage": ".476",
+        "lossPercentage": ".524",
+        "home": { "win": "25", "loss": "16" },
+        "away": { "win": "14", "loss": "27" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "20",
+        "win": "39",
+        "loss": "43",
+        "gamesBehind": "21",
+        "lastTenWin": "4",
+        "lastTenLoss": "6",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "10",
+          "win": "23",
+          "loss": "29"
+        },
+        "division": {
+          "name": "southeast",
+          "rank": "3",
+          "win": "7",
+          "loss": "9",
+          "GamesBehind": "3"
+        },
+        "winPercentage": ".476",
+        "lossPercentage": ".524",
+        "home": { "win": "19", "loss": "22" },
+        "away": { "win": "20", "loss": "21" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "26",
+        "win": "42",
+        "loss": "40",
+        "gamesBehind": "18",
+        "lastTenWin": "8",
+        "lastTenLoss": "2",
+        "streak": "4",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "7",
+          "win": "30",
+          "loss": "22"
+        },
+        "division": {
+          "name": "southeast",
+          "rank": "1",
+          "win": "10",
+          "loss": "6",
+          "GamesBehind": "0"
+        },
+        "winPercentage": ".512",
+        "lossPercentage": ".488",
+        "home": { "win": "25", "loss": "16" },
+        "away": { "win": "17", "loss": "24" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "41",
+        "win": "32",
+        "loss": "50",
+        "gamesBehind": "28",
+        "lastTenWin": "2",
+        "lastTenLoss": "8",
+        "streak": "4",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "11",
+          "win": "19",
+          "loss": "33"
+        },
+        "division": {
+          "name": "southeast",
+          "rank": "4",
+          "win": "7",
+          "loss": "9",
+          "GamesBehind": "10"
+        },
+        "winPercentage": ".390",
+        "lossPercentage": ".610",
+        "home": { "win": "22", "loss": "19" },
+        "away": { "win": "10", "loss": "31" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "2",
+        "win": "49",
+        "loss": "33",
+        "gamesBehind": "11",
+        "lastTenWin": "6",
+        "lastTenLoss": "4",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "4",
+          "win": "35",
+          "loss": "17"
+        },
+        "division": {
+          "name": "atlantic",
+          "rank": "3",
+          "win": "10",
+          "loss": "6",
+          "GamesBehind": "9"
+        },
+        "winPercentage": ".598",
+        "lossPercentage": ".402",
+        "home": { "win": "28", "loss": "13" },
+        "away": { "win": "21", "loss": "20" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "4",
+        "win": "42",
+        "loss": "40",
+        "gamesBehind": "18",
+        "lastTenWin": "6",
+        "lastTenLoss": "4",
+        "streak": "3",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "6",
+          "win": "29",
+          "loss": "23"
+        },
+        "division": {
+          "name": "atlantic",
+          "rank": "4",
+          "win": "8",
+          "loss": "8",
+          "GamesBehind": "16"
+        },
+        "winPercentage": ".512",
+        "lossPercentage": ".488",
+        "home": { "win": "23", "loss": "18" },
+        "away": { "win": "19", "loss": "22" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "24",
+        "win": "17",
+        "loss": "65",
+        "gamesBehind": "43",
+        "lastTenWin": "3",
+        "lastTenLoss": "7",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "15",
+          "win": "11",
+          "loss": "41"
+        },
+        "division": {
+          "name": "atlantic",
+          "rank": "5",
+          "win": "2",
+          "loss": "14",
+          "GamesBehind": "41"
+        },
+        "winPercentage": ".207",
+        "lossPercentage": ".793",
+        "home": { "win": "9", "loss": "32" },
+        "away": { "win": "8", "loss": "33" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "27",
+        "win": "51",
+        "loss": "31",
+        "gamesBehind": "9",
+        "lastTenWin": "4",
+        "lastTenLoss": "6",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "3",
+          "win": "31",
+          "loss": "21"
+        },
+        "division": {
+          "name": "atlantic",
+          "rank": "2",
+          "win": "8",
+          "loss": "8",
+          "GamesBehind": "7"
+        },
+        "winPercentage": ".622",
+        "lossPercentage": ".378",
+        "home": { "win": "31", "loss": "10" },
+        "away": { "win": "20", "loss": "21" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "38",
+        "win": "58",
+        "loss": "24",
+        "gamesBehind": "2",
+        "lastTenWin": "7",
+        "lastTenLoss": "3",
+        "streak": "2",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "2",
+          "win": "36",
+          "loss": "16"
+        },
+        "division": {
+          "name": "atlantic",
+          "rank": "1",
+          "win": "12",
+          "loss": "4",
+          "GamesBehind": "0"
+        },
+        "winPercentage": ".707",
+        "lossPercentage": ".293",
+        "home": { "win": "32", "loss": "9" },
+        "away": { "win": "26", "loss": "15" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "6",
+        "win": "22",
+        "loss": "60",
+        "gamesBehind": "38",
+        "lastTenWin": "2",
+        "lastTenLoss": "8",
+        "streak": "3",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "13",
+          "win": "16",
+          "loss": "36"
+        },
+        "division": {
+          "name": "central",
+          "rank": "4",
+          "win": "3",
+          "loss": "13",
+          "GamesBehind": "38"
+        },
+        "winPercentage": ".268",
+        "lossPercentage": ".732",
+        "home": { "win": "9", "loss": "32" },
+        "away": { "win": "13", "loss": "28" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "7",
+        "win": "19",
+        "loss": "63",
+        "gamesBehind": "41",
+        "lastTenWin": "0",
+        "lastTenLoss": "10",
+        "streak": "10",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "14",
+          "win": "15",
+          "loss": "37"
+        },
+        "division": {
+          "name": "central",
+          "rank": "5",
+          "win": "4",
+          "loss": "12",
+          "GamesBehind": "41"
+        },
+        "winPercentage": ".232",
+        "lossPercentage": ".768",
+        "home": { "win": "13", "loss": "28" },
+        "away": { "win": "6", "loss": "35" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "10",
+        "win": "41",
+        "loss": "41",
+        "gamesBehind": "19",
+        "lastTenWin": "4",
+        "lastTenLoss": "6",
+        "streak": "2",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "8",
+          "win": "27",
+          "loss": "25"
+        },
+        "division": {
+          "name": "central",
+          "rank": "3",
+          "win": "8",
+          "loss": "8",
+          "GamesBehind": "19"
+        },
+        "winPercentage": ".500",
+        "lossPercentage": ".500",
+        "home": { "win": "26", "loss": "15" },
+        "away": { "win": "15", "loss": "26" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "15",
+        "win": "48",
+        "loss": "34",
+        "gamesBehind": "12",
+        "lastTenWin": "4",
+        "lastTenLoss": "6",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "5",
+          "win": "33",
+          "loss": "19"
+        },
+        "division": {
+          "name": "central",
+          "rank": "2",
+          "win": "11",
+          "loss": "5",
+          "GamesBehind": "12"
+        },
+        "winPercentage": ".585",
+        "lossPercentage": ".415",
+        "home": { "win": "29", "loss": "12" },
+        "away": { "win": "19", "loss": "22" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "21",
+        "win": "60",
+        "loss": "22",
+        "gamesBehind": "0",
+        "lastTenWin": "7",
+        "lastTenLoss": "3",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "east",
+          "rank": "1",
+          "win": "40",
+          "loss": "12"
+        },
+        "division": {
+          "name": "central",
+          "rank": "1",
+          "win": "14",
+          "loss": "2",
+          "GamesBehind": "0"
+        },
+        "winPercentage": ".732",
+        "lossPercentage": ".268",
+        "home": { "win": "33", "loss": "8" },
+        "away": { "win": "27", "loss": "14" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "8",
+        "win": "33",
+        "loss": "49",
+        "gamesBehind": "24",
+        "lastTenWin": "5",
+        "lastTenLoss": "5",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "14",
+          "win": "18",
+          "loss": "34"
+        },
+        "division": {
+          "name": "southwest",
+          "rank": "5",
+          "win": "4",
+          "loss": "12",
+          "GamesBehind": "20"
+        },
+        "winPercentage": ".402",
+        "lossPercentage": ".598",
+        "home": { "win": "24", "loss": "17" },
+        "away": { "win": "9", "loss": "32" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "14",
+        "win": "53",
+        "loss": "29",
+        "gamesBehind": "4",
+        "lastTenWin": "8",
+        "lastTenLoss": "2",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "4",
+          "win": "32",
+          "loss": "20"
+        },
+        "division": {
+          "name": "southwest",
+          "rank": "1",
+          "win": "10",
+          "loss": "6",
+          "GamesBehind": "0"
+        },
+        "winPercentage": ".646",
+        "lossPercentage": ".354",
+        "home": { "win": "31", "loss": "10" },
+        "away": { "win": "22", "loss": "19" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "19",
+        "win": "33",
+        "loss": "49",
+        "gamesBehind": "24",
+        "lastTenWin": "4",
+        "lastTenLoss": "6",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "12",
+          "win": "24",
+          "loss": "28"
+        },
+        "division": {
+          "name": "southwest",
+          "rank": "3",
+          "win": "8",
+          "loss": "8",
+          "GamesBehind": "20"
+        },
+        "winPercentage": ".402",
+        "lossPercentage": ".598",
+        "home": { "win": "21", "loss": "20" },
+        "away": { "win": "12", "loss": "29" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "23",
+        "win": "33",
+        "loss": "49",
+        "gamesBehind": "24",
+        "lastTenWin": "3",
+        "lastTenLoss": "7",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "13",
+          "win": "23",
+          "loss": "29"
+        },
+        "division": {
+          "name": "southwest",
+          "rank": "4",
+          "win": "8",
+          "loss": "8",
+          "GamesBehind": "20"
+        },
+        "winPercentage": ".402",
+        "lossPercentage": ".598",
+        "home": { "win": "19", "loss": "22" },
+        "away": { "win": "14", "loss": "27" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "31",
+        "win": "48",
+        "loss": "34",
+        "gamesBehind": "9",
+        "lastTenWin": "6",
+        "lastTenLoss": "4",
+        "streak": "3",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "7",
+          "win": "30",
+          "loss": "22"
+        },
+        "division": {
+          "name": "southwest",
+          "rank": "2",
+          "win": "10",
+          "loss": "6",
+          "GamesBehind": "5"
+        },
+        "winPercentage": ".585",
+        "lossPercentage": ".415",
+        "home": { "win": "32", "loss": "9" },
+        "away": { "win": "16", "loss": "25" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "11",
+        "win": "57",
+        "loss": "25",
+        "gamesBehind": "0",
+        "lastTenWin": "8",
+        "lastTenLoss": "2",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "1",
+          "win": "35",
+          "loss": "17"
+        },
+        "division": {
+          "name": "pacific",
+          "rank": "1",
+          "win": "13",
+          "loss": "3",
+          "GamesBehind": "0"
+        },
+        "winPercentage": ".695",
+        "lossPercentage": ".305",
+        "home": { "win": "30", "loss": "11" },
+        "away": { "win": "27", "loss": "14" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "16",
+        "win": "48",
+        "loss": "34",
+        "gamesBehind": "9",
+        "lastTenWin": "6",
+        "lastTenLoss": "4",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "8",
+          "win": "28",
+          "loss": "24"
+        },
+        "division": {
+          "name": "pacific",
+          "rank": "2",
+          "win": "11",
+          "loss": "5",
+          "GamesBehind": "9"
+        },
+        "winPercentage": ".585",
+        "lossPercentage": ".415",
+        "home": { "win": "26", "loss": "15" },
+        "away": { "win": "22", "loss": "19" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "17",
+        "win": "37",
+        "loss": "45",
+        "gamesBehind": "20",
+        "lastTenWin": "6",
+        "lastTenLoss": "4",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "10",
+          "win": "25",
+          "loss": "27"
+        },
+        "division": {
+          "name": "pacific",
+          "rank": "4",
+          "win": "9",
+          "loss": "7",
+          "GamesBehind": "20"
+        },
+        "winPercentage": ".451",
+        "lossPercentage": ".549",
+        "home": { "win": "22", "loss": "19" },
+        "away": { "win": "15", "loss": "26" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "28",
+        "win": "19",
+        "loss": "63",
+        "gamesBehind": "38",
+        "lastTenWin": "2",
+        "lastTenLoss": "8",
+        "streak": "2",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "15",
+          "win": "11",
+          "loss": "41"
+        },
+        "division": {
+          "name": "pacific",
+          "rank": "5",
+          "win": "3",
+          "loss": "13",
+          "GamesBehind": "38"
+        },
+        "winPercentage": ".232",
+        "lossPercentage": ".768",
+        "home": { "win": "12", "loss": "29" },
+        "away": { "win": "7", "loss": "34" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "30",
+        "win": "39",
+        "loss": "43",
+        "gamesBehind": "18",
+        "lastTenWin": "3",
+        "lastTenLoss": "7",
+        "streak": "3",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "9",
+          "win": "21",
+          "loss": "31"
+        },
+        "division": {
+          "name": "pacific",
+          "rank": "3",
+          "win": "4",
+          "loss": "12",
+          "GamesBehind": "18"
+        },
+        "winPercentage": ".476",
+        "lossPercentage": ".524",
+        "home": { "win": "24", "loss": "17" },
+        "away": { "win": "15", "loss": "26" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "9",
+        "win": "54",
+        "loss": "28",
+        "gamesBehind": "3",
+        "lastTenWin": "5",
+        "lastTenLoss": "5",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "2",
+          "win": "34",
+          "loss": "18"
+        },
+        "division": {
+          "name": "northwest",
+          "rank": "1",
+          "win": "12",
+          "loss": "4",
+          "GamesBehind": "0"
+        },
+        "winPercentage": ".659",
+        "lossPercentage": ".341",
+        "home": { "win": "34", "loss": "7" },
+        "away": { "win": "20", "loss": "21" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "22",
+        "win": "36",
+        "loss": "46",
+        "gamesBehind": "21",
+        "lastTenWin": "4",
+        "lastTenLoss": "6",
+        "streak": "3",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "11",
+          "win": "22",
+          "loss": "30"
+        },
+        "division": {
+          "name": "northwest",
+          "rank": "5",
+          "win": "5",
+          "loss": "11",
+          "GamesBehind": "18"
+        },
+        "winPercentage": ".439",
+        "lossPercentage": ".561",
+        "home": { "win": "25", "loss": "16" },
+        "away": { "win": "11", "loss": "30" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "25",
+        "win": "49",
+        "loss": "33",
+        "gamesBehind": "8",
+        "lastTenWin": "7",
+        "lastTenLoss": "3",
+        "streak": "5",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "6",
+          "win": "28",
+          "loss": "24"
+        },
+        "division": {
+          "name": "northwest",
+          "rank": "4",
+          "win": "9",
+          "loss": "7",
+          "GamesBehind": "5"
+        },
+        "winPercentage": ".598",
+        "lossPercentage": ".402",
+        "home": { "win": "27", "loss": "14" },
+        "away": { "win": "22", "loss": "19" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "29",
+        "win": "53",
+        "loss": "29",
+        "gamesBehind": "4",
+        "lastTenWin": "8",
+        "lastTenLoss": "2",
+        "streak": "3",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "3",
+          "win": "29",
+          "loss": "23"
+        },
+        "division": {
+          "name": "northwest",
+          "rank": "2",
+          "win": "6",
+          "loss": "10",
+          "GamesBehind": "1"
+        },
+        "winPercentage": ".646",
+        "lossPercentage": ".354",
+        "home": { "win": "32", "loss": "9" },
+        "away": { "win": "21", "loss": "20" },
+        "winStreak": "1",
+        "tieBreakerPoints": ""
+      },
+      {
+        "league": "standard",
+        "teamId": "40",
+        "win": "50",
+        "loss": "32",
+        "gamesBehind": "7",
+        "lastTenWin": "8",
+        "lastTenLoss": "2",
+        "streak": "1",
+        "seasonYear": "2018",
+        "conference": {
+          "name": "west",
+          "rank": "5",
+          "win": "30",
+          "loss": "22"
+        },
+        "division": {
+          "name": "northwest",
+          "rank": "3",
+          "win": "8",
+          "loss": "8",
+          "GamesBehind": "4"
+        },
+        "winPercentage": ".610",
+        "lossPercentage": ".390",
+        "home": { "win": "29", "loss": "12" },
+        "away": { "win": "21", "loss": "20" },
+        "winStreak": "0",
+        "tieBreakerPoints": ""
+      }
+    ]
+  }
+}
