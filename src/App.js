@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import Team from "./Team";
-import Favorites from "./Favorites";
+import Team from "./containers/Team";
+import Favorites from "./containers/Favorites";
 
 import { Grid } from "semantic-ui-react";
-import Player from "./Player";
-import SpecificTeam from "./Specific";
+import Player from "./components/Player";
+import SpecificTeam from "./components/SpecificTeam";
 
 class App extends React.Component {
   constructor(props) {
