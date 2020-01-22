@@ -24,7 +24,7 @@ class App extends React.Component {
   render() {
     return (
       <Container>
-        <Segment raised>
+        <Segment raised style={{ overflow: 'auto', maxHeight: '30em' }}>
       <div>
         <header>
           NBA Teams
