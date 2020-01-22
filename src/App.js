@@ -24,7 +24,7 @@ class App extends React.Component {
   render() {
     return (
       <Container >
-      <div className="data-window">
+      <div>
         <header>
           NBA Teams
           {/* <link
