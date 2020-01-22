@@ -7,3 +7,22 @@
   border: 3px !important;
   border-color: black !important;
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.container {
+    width: 875px !important;
+  }
+
+  .ui.grid.container {
+    width: calc( 850px  +  2rem ) !important;
+  }
+
+  .ui.relaxed.grid.container {
+    width: calc( 850px  +  3rem ) !important;
+  }
+
+  .ui.very.relaxed.grid.container {
+    width: calc( 850px  +  5rem ) !important;
+  }
+}
