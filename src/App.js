@@ -17,7 +17,8 @@ class App extends React.Component {
       logged_in: "",
       current: "",
       players: [],
-      currentPlayer: ""
+      playerStats: [],
+      currentPlayer: ''
     };
   }
   seeTeam = team => {
@@ -35,7 +36,28 @@ class App extends React.Component {
           players: response.api.players,
           team_click: 2,
           current: team
-        });
+        }, () => console.log(this.state));
+      })
+      .catch(err => {
+        console.log(err);
+      });
+  };
+  seePlayer = player => {
+    fetch(`https://api-nba-v1.p.rapidapi.com/statistics/players/playerId/${player.playerId}`, {
+      method: "GET",
+      headers: {
+        "x-rapidapi-host": "api-nba-v1.p.rapidapi.com",
+        "x-rapidapi-key": process.env.REACT_APP_NBA_API_KEY,
+        "Content-Type": "application/json"
+      }
+    })
+      .then(response => response.json())
+      .then(response => {
+        this.setState({
+          team_click: 3,
+          currentPlayer: player,
+          playerStats: response
+        }, () => console.log(this.state));
       })
       .catch(err => {
         console.log(err);
@@ -59,9 +81,10 @@ class App extends React.Component {
                   <SpecificTeam
                     team={this.state.current}
                     players={this.state.players}
+                    seePlayer={this.seePlayer}
                   />
                 ) : (
-                  <Player />
+                  <Player currentPlayer={this.state.currentPlayer} playerStats={this.state.playerStats}/>
                 )}
               </Grid.Column>
             </Grid.Row>
