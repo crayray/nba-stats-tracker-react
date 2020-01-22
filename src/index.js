@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App';
 import Navbar from './Navbar';
 import Signup from './Signup';
 import * as serviceWorker from './serviceWorker';
@@ -10,9 +10,10 @@ import 'semantic-ui-css/semantic.min.css';
 
 ReactDOM.render((  <Router>
     <div>
-      <Navbar />
+      {/* <Navbar />
       <Route exact path="/" component={App} />
-      <Route exact path="/signup" component={Signup} />
+      <Route exact path="/signup" component={Signup} /> */}
+      <App />
     </div>
   </Router>), document.getElementById('root'));
 

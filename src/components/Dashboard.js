@@ -1,25 +1,48 @@
+
+import axios from "axios";
 import React from "react";
-import "./App.css";
-import Team from "./containers/Team";
-import Favorites from "./containers/Favorites";
+import "../App.css";
+import Team from "../containers/Team";
+import Favorites from "../containers/Favorites";
 
 import { Grid, Container, Segment } from "semantic-ui-react";
-import Player from "./components/Player";
-import SpecificTeam from "./components/SpecificTeam";
-import DataMenu from "./components/Menu";
+import Player from "./Player";
+import SpecificTeam from "./SpecificTeam";
+import DataMenu from "./Menu";
 
-class App extends React.Component {
+class Dashboard extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
       team_click: 1,
-      logged_in: "",
+      loggedInStatus: "NOT_LOGGED_IN",
       current: "",
       players: [],
       currentPlayer: ""
     };
+    this.handleLogoutClick = this.handleLogoutClick.bind(this);
+    this.handleLogout = this.handleLogout.bind(this);
   }
+
+  handleLogout() {
+    this.setState({
+      loggedInStatus: "NOT_LOGGED_IN"
+    });
+    this.props.history.push("/");
+  }
+
+  handleLogoutClick() {
+    axios
+      .delete("http://localhost:4000/logout", { withCredentials: true })
+      .then(response => {
+        this.handleLogout();
+      })
+      .catch(error => {
+        console.log("Logout error", error);
+      });
+  }
+
   seeTeam = team => {
     fetch(`https://api-nba-v1.p.rapidapi.com/players/teamId/${team.teamId}`, {
       method: "GET",
@@ -45,6 +68,16 @@ class App extends React.Component {
   render() {
     return (
       <Container style={{ marginTop: "5em" }}>
+       <div>
+        <h1>Dashboard</h1>
+        <h1>Status: {this.props.loggedInStatus}</h1>
+        <button
+          onClick={() => this.handleLogoutClick()}
+          className="btn btn-primary btn-sm"
+        >
+          Logout
+        </button>
+      </div>
         <Segment raised style={{ overflow: "auto", maxHeight: "45em" }}>
           <DataMenu />
           <Grid>
@@ -72,4 +105,4 @@ class App extends React.Component {
   }
 }
     
-export default App;
+export default Dashboard;
