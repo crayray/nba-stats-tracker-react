@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { NavLink } from 'react-router-dom';
-import { Menu, Dropdown, Container, Image } from "semantic-ui-react";
+import { Menu, Container, Image } from "semantic-ui-react";
 function NavBar() {
   return (
     <div className="App">
