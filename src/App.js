@@ -3,7 +3,7 @@ import "./App.css";
 import Team from "./containers/Team";
 import Favorites from "./containers/Favorites";
 
-import { Grid, Container } from "semantic-ui-react";
+import { Grid, Container, Segment } from "semantic-ui-react";
 import Player from "./components/Player";
 import SpecificTeam from "./components/SpecificTeam";
 
@@ -23,7 +23,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <Container >
+      <Container style={{ marginTop: '5em' }}>
+        <Segment raised style={{ overflow: 'auto', maxHeight: '30em' }}>
       <div>
         <header>
           NBA Teams
@@ -50,6 +51,7 @@ class App extends React.Component {
           </Grid.Row>
         </Grid>
       </div>
+      </Segment>
       </Container>
     );
   }
