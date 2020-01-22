@@ -3,7 +3,7 @@ import "./App.css";
 import Team from "./containers/Team";
 import Favorites from "./containers/Favorites";
 
-import { Grid } from "semantic-ui-react";
+import { Grid, Container } from "semantic-ui-react";
 import Player from "./components/Player";
 import SpecificTeam from "./components/SpecificTeam";
 
@@ -23,7 +23,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <Container >
+      <div>
         <header>
           NBA Teams
           {/* <link
@@ -32,7 +33,7 @@ class App extends React.Component {
         /> */}
         </header>
 
-        <Grid>
+        <Grid >
           <Grid.Row>
             <Grid.Column width={8}>
               <Team seeTeam={this.seeTeam}/>
@@ -49,6 +50,7 @@ class App extends React.Component {
           </Grid.Row>
         </Grid>
       </div>
+      </Container>
     );
   }
 }
