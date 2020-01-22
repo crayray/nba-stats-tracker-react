@@ -25,9 +25,11 @@ export default class Player extends React.Component {
         <h4>Rebounds pg: {this.calculateStats("totReb")}</h4>
         <h4>Steals pg: {this.calculateStats("steals")}</h4>
         <h4>Blocks pg: {this.calculateStats("blocks")}</h4>
-        <h4>Turnovers pg: {this.calculateStats("points")}</h4>
+        <h4>Turnovers pg: {this.calculateStats("turnovers")}</h4>
 
         <h3>Additional Info</h3>
+        <h5>Position: {this.props.currentPlayer.leagues.standard.pos}</h5>
+        <h5>Jersey Number: {this.props.currentPlayer.leagues.standard.jersey}</h5>
         <h5>Years Pro: {this.props.currentPlayer.yearsPro}</h5>
         <h5>Country: {this.props.currentPlayer.country}</h5>
         <h5>Date of Birth: {this.props.currentPlayer.dateOfBirth}</h5>
