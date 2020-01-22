@@ -27,7 +27,7 @@ class App extends React.Component {
   render() {
     return (
       <Container style={{ marginTop: "5em"}}>
-        <Segment raised style={{ overflow: "auto", maxHeight: "50em" }}>
+        <Segment raised style={{ overflow: "auto", maxHeight: "28em" }}>
           <DataMenu />
           <Grid>
             <Grid.Row>
