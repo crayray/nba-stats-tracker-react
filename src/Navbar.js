@@ -9,7 +9,7 @@ function NavBar() {
         <Menu fixed='top' inverted>
       <Container>
         <Menu.Item as='a' header>
-          <Image size='mini' src='/logo.png' style={{ marginRight: '1.5em' }} />
+          <Image size='mini' src='https://www.stickpng.com/assets/images/58428defa6515b1e0ad75ab4.png' style={{ marginRight: '1.5em' }} />
           NBA Stats
         </Menu.Item>
         <Menu.Item as='a'>Home</Menu.Item>

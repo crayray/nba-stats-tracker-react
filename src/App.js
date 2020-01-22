@@ -6,6 +6,7 @@ import Favorites from "./containers/Favorites";
 import { Grid, Container, Segment } from "semantic-ui-react";
 import Player from "./components/Player";
 import SpecificTeam from "./components/SpecificTeam";
+import DataMenu from "./components/Menu";
 
 class App extends React.Component {
   constructor(props) {
