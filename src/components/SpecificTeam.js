@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default class Specific extends React.Component {
+export default class SpecificTeam extends React.Component {
     render() {
     return (
         <div>

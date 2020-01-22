@@ -1,6 +1,6 @@
 import React from "react";
-import Teams from "./data/all_teams.json";
-import TeamCard from "./TeamCard";
+import Teams from "../data/all_teams.json";
+import TeamCard from "../components/TeamCard";
 
 
 export default class Team extends React.Component{
