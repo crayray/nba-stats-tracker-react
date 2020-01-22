@@ -13,14 +13,9 @@ function NavBar() {
           NBA Stats
         </Menu.Item>
         <Menu.Item as='a'>Home</Menu.Item>
+        <Menu.Item as='a'>Login</Menu.Item>
+        <Menu.Item as='a'>Sign Up</Menu.Item>
 
-        <Dropdown item simple text='Stats'>
-          <Dropdown.Menu>
-            <Dropdown.Item>Teams</Dropdown.Item>
-            <Dropdown.Item>Players</Dropdown.Item>
-            <Dropdown.Item>Favorites</Dropdown.Item>
-          </Dropdown.Menu>
-        </Dropdown>
       </Container>
     </Menu>
       </NavLink>
