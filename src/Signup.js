@@ -7,7 +7,9 @@ export default class Signup extends React.Component {
 
     this.state = {
       username: "",
-      password: ""
+      password: "",
+      username2: "",
+      password2: ""
     };
   }
   updateUser = event => {
@@ -16,9 +18,15 @@ export default class Signup extends React.Component {
   updatePass = event => {
     this.setState({ password: event.target.value });
   };
-  redirect = (event) => {
-    event.preventDefault()
-    this.props.logIn(event)
+  updateUser2 = event => {
+    this.setState({ username2: event.target.value });
+  };
+  updatePass2 = event => {
+    this.setState({ password2: event.target.value });
+  };
+  redirect = event => {
+    event.preventDefault();
+    this.props.logIn(event);
     // this.history.push("/");
   };
 
@@ -27,7 +35,14 @@ export default class Signup extends React.Component {
       <div>
         <div>hi</div>
         <div>hi</div>
-        <div>hi</div>
+        
+        <h1>
+          {this.props.logged ? (
+            <h2>Hello, {this.props.logged.user.user.username}</h2>
+          ) : (
+            <h1>Please Sign In or Create an Account</h1>
+          )}
+        </h1>
         <div>Sign Up</div>
         <form onSubmit={event => this.redirect(event)}>
           <label>
@@ -51,7 +66,6 @@ export default class Signup extends React.Component {
           <input type="submit" value="Submit"></input>
         </form>
 
-        
         <div>Login</div>
         <form onSubmit={event => this.props.login(event)}>
           <label>
@@ -59,8 +73,8 @@ export default class Signup extends React.Component {
             <input
               type="text"
               name="username"
-              value={this.state.username}
-              onChange={this.updateUser}
+              value={this.state.username2}
+              onChange={this.updateUser2}
             ></input>
           </label>
           <label>
@@ -68,8 +82,8 @@ export default class Signup extends React.Component {
             <input
               type="text"
               name="password"
-              value={this.state.password}
-              onChange={this.updatePass}
+              value={this.state.password2}
+              onChange={this.updatePass2}
             ></input>
           </label>
           <input type="submit" value="Submit"></input>
