@@ -14,7 +14,6 @@ class App extends React.Component {
 
     this.state = {
       team_click: 1,
-      logged_in: "",
       current: "",
       players: [],
       playerStats: [],

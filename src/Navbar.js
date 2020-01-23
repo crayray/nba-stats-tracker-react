@@ -13,8 +13,8 @@ function NavBar() {
           NBA Stats
         </Menu.Item>
         <Menu.Item as='a'>Home</Menu.Item>
-        <Menu.Item as='a'>Login</Menu.Item>
-        <Menu.Item as='a'>Sign Up</Menu.Item>
+        <Menu.Item as='a'><NavLink to='/signup'>Login</NavLink></Menu.Item>
+        <Menu.Item as='a'><NavLink to='/signup'>Sign Up</NavLink></Menu.Item>
 
       </Container>
     </Menu>
