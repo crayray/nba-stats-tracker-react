@@ -6,6 +6,7 @@ export default class SpecificTeam extends React.Component {
     return (
       <Card>
         <Card.Content>
+          <button>Add to Favorites</button>
           <Image floated="left" size="small" src={this.props.team.logo} />
           <h1>{this.props.team.fullName}</h1>
           <h2>City: {this.props.team.city}</h2>

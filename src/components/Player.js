@@ -4,7 +4,7 @@ export default class Player extends React.Component {
   calculateStats = playerStat => {
     let stat = 0;
     this.props.playerStats.api.statistics.forEach(s =>
-      s["points"] === ""
+      s[playerStat] === ""
         ? console.log(0)
         : (stat += parseInt(s[playerStat], 10))
     );
