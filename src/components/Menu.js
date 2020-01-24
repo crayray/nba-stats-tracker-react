@@ -24,7 +24,7 @@ export default class DataMenu extends Component {
         <Menu.Item
           name='Favorites'
           active={activeItem === 'friends'}
-          onClick={this.handleItemClick}
+          onClick={() => this.props.favor()}
         />
         <Menu.Menu position='right'>
           <Menu.Item>
