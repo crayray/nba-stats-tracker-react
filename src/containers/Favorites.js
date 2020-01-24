@@ -15,8 +15,9 @@ export default class Favorites extends React.Component {
 
         <div>
       {this.props.favorites.map(team => (
-          Teams.api.teams.find(t => team === t.teamId)
-        )).map(team => <TeamCard key={team.teamId} team={team} seeTeam={this.props.seeTeam}/>)}
+        Teams.api.teams.find(t => team.team === parseInt(t.teamId))))
+        .map(team => <TeamCard team={team} seeTeam={this.props.seeTeam}/>)
+    }
     </div>
       </div>
     );
