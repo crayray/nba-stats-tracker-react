@@ -20,7 +20,7 @@ export default class SpecificTeam extends React.Component {
           <Card.Content>
           <h4>Players:</h4>
             {this.props.players.map(player => (
-              <Button basic fluid color="blue" className="player" key={player.playerId} onClick={() => this.props.seePlayer(player)}>
+              <Button  fluid color="teal" className="player" key={player.playerId} onClick={() => this.props.seePlayer(player)}>
                 {player.firstName} {player.lastName}
               </Button>
             ))}
