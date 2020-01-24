@@ -65,7 +65,7 @@ export default class Document extends React.Component {
         this.setState({ favorites: [...this.state.favorites, team] }, () => console.log(this.state.favorites));
         let user_team = {
           user_id: this.state.logged_in.user.user.id,
-          team: team
+          team: team.team
         };
         fetch(`http://localhost:3001/user_teams`, {
           method: "POST",
