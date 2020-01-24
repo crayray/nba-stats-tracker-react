@@ -43,7 +43,7 @@ export default class Signup extends React.Component {
             <h1>Please Sign In or Create an Account</h1>
           )}
         </h1>
-        <div>Sign Up</div>
+        <div><h3>Sign Up</h3></div>
         <form onSubmit={event => this.redirect(event)}>
           <label>
             UserName:
@@ -66,7 +66,7 @@ export default class Signup extends React.Component {
           <input type="submit" value="Submit"></input>
         </form>
 
-        <div>Login</div>
+        <div><h3>Login</h3></div>
         <form onSubmit={event => this.props.login(event)}>
           <label>
             UserName:

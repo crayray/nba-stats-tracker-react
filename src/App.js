@@ -63,11 +63,15 @@ class App extends React.Component {
       });
   };
 
+  favor = () => {
+    this.setState({team_click: 1})
+  }
+
   render() {
     return (
       <Container style={{ marginTop: "5em" }}>
         <Segment raised style={{ overflow: "auto", maxHeight: "45em" }}>
-          <DataMenu />
+          <DataMenu favor={this.favor}/>
           <Grid>
             <Grid.Row>
               <Grid.Column width={8}>
@@ -75,12 +79,13 @@ class App extends React.Component {
               </Grid.Column>
               <Grid.Column width={8}>
                 {this.state.team_click === 1 ? (
-                  <Favorites />
+                  <Favorites favorites={this.props.favorites} logged={this.props.logged} seeTeam={this.seeTeam}/>
                 ) : this.state.team_click === 2 ? (
                   <SpecificTeam
                     team={this.state.current}
                     players={this.state.players}
                     seePlayer={this.seePlayer}
+                    addFav={this.props.addFav}
                   />
                 ) : (
                   <Player currentPlayer={this.state.currentPlayer} playerStats={this.state.playerStats}/>
