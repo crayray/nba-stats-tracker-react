@@ -7,7 +7,7 @@ export default class SpecificTeam extends React.Component {
     return (
       <Card>
         {/* <Card.Content> */}
-        <Button size= "small" align="center"basic color='green' onClick={() => this.props.addFav(this.props.team.teamId)}>
+        <Button size= "small" align="center"basic color='green' onClick={() => this.props.addFav({team: parseInt(this.props.team.teamId)})}>
             Add to Favorites
           </Button>
           <Card.Content>{this.props.team.fullName} <Image  float="right" size="mini" src={this.props.team.logo} />

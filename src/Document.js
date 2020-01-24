@@ -58,11 +58,11 @@ export default class Document extends React.Component {
   };
   addFav = team => {
     if (this.state.logged_in !== "") {
-      if (this.state.favorites.find(t => t.team === parseInt(team))) {
+      if (this.state.favorites.find(t => t.team === parseInt(team.team))) {
         alert("Already one of your favorites");
       } else {
         console.log(this.state.favorites)
-        this.setState({ favorites: [...this.state.favorites, team] });
+        this.setState({ favorites: [...this.state.favorites, team] }, () => console.log(this.state.favorites));
         let user_team = {
           user_id: this.state.logged_in.user.user.id,
           team: team
