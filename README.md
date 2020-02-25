@@ -1,7 +1,53 @@
-This app was created to keep track of your fav NBA teams.  If you are as big of fans as we are then you know it is hard to watch every game to see how your favorite players are doing, so we created this app to help with that.
+ScienceMaster
+====================================
 
-To use this app you must fork this repository and run npm install. You must do the same thing with the backend part of this app(linked in the desription) and run bundle install.  Next set up the database in the backend with rails db:migrate and then rails db:seed. Run the backend with rails s and run the frontend with npm start.  Now your app should be up and running and ready to use.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Requirements](#requirements)
+* [Installation](#installation)
+* [Credits](#credits)
 
-Created by: Mason Waller and Rachel Fuerst
+---
 
-Demo: https://www.youtube.com/watch?v=CA_7VQVVUD8
+## General info
+If you're an NBA fan, you know it is hard to watch every game to see how your favorite players and teams are doing. We created a one-stop-shop where you can track your favorite players and teams. This web app has the following interactive functionalities: 
+- Find stats for specific teams or players
+- Save these teams or players so you can continue to reference them over time
+- Reference a five year analysis of each player's stats.
+
+
+---
+
+## Technologies
+The frontend of the app runs on React, with the backend API running on Rails and PostgreSQL. You can find details on our API [here](https://github.com/crayray/nba-stats-tracker-backend). 
+
+All NBA stats data is pulled from the [API-NBA](https://rapidapi.com/api-sports/api/api-nba/details) API. 
+
+We are also using Semantic UI for the components. 
+
+
+## Requirements
+This app will require the following:
+- React
+- Semantic UI package
+
+## Installation
+Download the project files and run:
+```
+// ♥ npm install
+```
+Follow the Installation instructions from the [backend repository](https://github.com/crayray/nba-stats-tracker-backend) to ensure you can authenticate.
+
+## Credits
+
+
+The humble developers who built this app:
+
+
+**Rachel Fuerst** [LinkedIn](https://www.linkedin.com/in/rachfuerst) // [Github](https://github.com/crayray)
+
+&
+
+**Mei Wong** [LinkedIn](https://www.linkedin.com/in/fong-mei-wong-594a2451/) // [Github](https://github.com/fmwong77)
+
