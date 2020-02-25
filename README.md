@@ -49,5 +49,5 @@ The humble developers who built this app:
 
 &
 
-**Mei Wong** [LinkedIn](https://www.linkedin.com/in/fong-mei-wong-594a2451/) // [Github](https://github.com/fmwong77)
+**Mason Waller** [LinkedIn](https://www.linkedin.com/in/mason-waller-49a087196/) // [Github](https://github.com/masonwaller)
 
