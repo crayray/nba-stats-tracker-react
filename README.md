@@ -15,8 +15,7 @@ If you're an NBA fan, you know it is hard to watch every game to see how your fa
 - Find stats for specific teams or players
 - Save these teams or players so you can continue to reference them over time
 - Reference a five year analysis of each player's stats.
-
-
+Watch a short demo of the app [here](https://www.youtube.com/watch?v=CA_7VQVVUD8).
 ---
 
 ## Technologies
