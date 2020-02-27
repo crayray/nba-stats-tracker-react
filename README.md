@@ -1,4 +1,4 @@
-ScienceMaster
+NBA Stats Tracker
 ====================================
 
 ## Table of contents
